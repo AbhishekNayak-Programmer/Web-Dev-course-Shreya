@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: red;
+            background-color: green;
+
+            color: white;
+            color: black;
+        }
+
+        .container {
+            background-color: purple;
+        }
+
+        #someId {
+            background-color: crimson;
+        }
+
+
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+
+<!-- Inline > ID > Class > tag -->
+
+<body class="container" id="someId" style="background-color: aqua; color: rgb(18, 18, 18);">
+
+    <!-- Delete Tag -->
+    <del class="abc">Day 1</del> Day2
+
+    <!-- ABBR Tag -->
+    <h1 class="abc">I am a <abbr title="Artificial Intelligence/Machine Learning">AI/ML</abbr> Software Developer</h1>
+
+    <!-- Hr Tag -->
+    <hr>
+
+    <!-- Br Tag -->
+    <span id="abc">Abhishek Nayak</span> <br> <br> <br> <br> <br> <br>
+    <span>Abhishek Nayak</span>
+
+    <!-- Anchor Tag (V.V.IMP) -->
+    <a href="https://www.tesla.com/" target="_blank">Tesla &nbsp;&nbsp; Elon Musk</a>
+
+    <!-- HTML ENTITIES -->
+    <p>&lt; &pound; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#8377; &darr;</p>
+
+    <!-- Table Tags -->
+    <table>
+        <tr>
+            <th>Sl.No.</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Clock</td>
+            <td>1500</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Mobile</td>
+            <td>150000</td>
+        </tr>
+    </table>
+
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4005540576445!2d78.039567275234!3d27.175144776491745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1749436140870!5m2!1sen!2sin"
+        width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <iframe width="700" height="500" src="https://www.youtube.com/embed/NQL8mj4n8bo?si=r9fNmA00hep65GB9"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <iframe width="700" height="500" src="https://abhisheknayak.netlify.app/" frameborder="0"></iframe>
+
+    <br>
+    <br><br>
+
+    <form action="#">
+
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your Name">
+
+        <br>
+        <br>
+
+        <label for="number">Phone Number</label>
+        <input id="number" type="number" placeholder="Enter your Phone Number">
+
+        <br>
+        <br>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter Password">
+
+
+        <br>
+        <br>
+
+        <label for="Email">Email</label>
+        <input id="Email" type="email" placeholder="Enter your Email">
+
+
+        <br>
+        <br>
+
+        <label for="Date">Select Date</label>
+        <input id="Date" type="date">
+
+
+        <br>
+        <br>
+
+        <label for="month">Select Month</label>
+        <input id="month" type="month">
+
+
+        <br>
+        <br>
+
+        <label for="week">Select Week</label>
+        <input id="week" type="week">
+
+
+        <br>
+        <br>
+
+        <label for="Upload File">File</label>
+        <input type="file" multiple>
+
+
+        <br>
+        <br>
+
+        <label for="Color">Select Color</label>
+        <input type="color">
+
+
+        <br>
+        <br>
+
+        <label for="Range">Select Range</label>
+        <input type="range" min="1000" max="100000">
+
+
+        <br>
+        <br>
+
+        <input id="mark" type="checkbox"><label for="mark">Read Terms and Conditions</label>
+
+
+        <br>
+        <br>
+
+        <label for="search">Search</label>
+        <input type="search" placeholder="Search Something...">
+
+        <br>
+        <br>
+
+        <label>Select Gender</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+
+        <br>
+        <br>
+
+
+        <label for="Car">Select a car company</label>
+        <select name="car" id="Car">
+            <option value="Toyota">Toyota</option>
+            <option value="Mahindra">Mahindra</option>
+            <option value="Tata">Tata</option>
+        </select>
+
+        <br>
+        <br>
+
+    </form>
+
+
+    <!-- Music or Audio Tags -->
+    <!-- autoplay -->
+    <audio controls>
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+
+    <!-- Video Tags  -->
+    <video controls height="300" width="450" autoplay>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+
+</body>
+
+</html>

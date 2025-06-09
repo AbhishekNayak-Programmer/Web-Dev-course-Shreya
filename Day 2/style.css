@@ -1,0 +1,22 @@
+body {
+  background-color: red;
+  background-color: green;
+
+  color: white;
+  color: black;
+}
+
+.container {
+  background-color: purple;
+}
+
+#someId {
+  background-color: crimson;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}

@@ -1,0 +1,13 @@
+delete tags
+Abbr
+Hr
+Br
+Anchor Tag
+HTML Entities
+table in HTML
+Add google maps
+add youtube videos
+add other webites to your website
+FORMS in HTML
+add musics in your website
+add videos
