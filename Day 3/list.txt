@@ -1,0 +1,23 @@
+Comments in CSS
+Mesurements Rem em px
+Text Property - Align, Decoration, Spacings, Text Transform 
+Font Property - Font Size, Weight, Style, Font Family
+Add Google fonts
+Height
+Width
+List styles in CSS
+Borders and Border Radius
+Margins
+Paddings
+Box Models
+Add images using CSS
+Add Icons -- Show in Next Class
+Hover Effects
+
+
+
+Homework
+1. Make a Circle having image when hovered it should change the image after 2.5s and should have diffrent borders 
+initially and should be changed after hovered to diffrent color and diffrent styles.
+2. Make a Square Box having Space inside when that box is hovered inside space should go outside and inside space should be empty.
+3. Use a headline with your favorite font and when that is hovered should change the font 

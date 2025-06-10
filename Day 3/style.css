@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Some Comments */
+.box {
+  height: 10rem;
+  width: 10rem;
+  background-color: crimson;
+}
+
+/* 1 em 0r 1 rem  = 16px */
+
+.name {
+  text-align: center;
+  text-align: end;
+  text-align: start;
+}
+
+.para {
+  text-align: justify;
+}
+
+.link {
+  text-decoration: none;
+  color: green;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:visited,
+.link:active {
+  color: green;
+}
+
+.headline {
+  letter-spacing: 10px;
+  /* word-spacing: 10px; */
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+
+  font-size: 100px;
+  font-weight: 100; /* 100 200 300 400 500 600 700 800 900 1000*/
+
+  font-style: normal;
+  font-style: italic;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lobster", sans-serif;
+
+  transition: all 1s;
+}
+
+.headline:hover {
+  color: crimson;
+}
+
+.unordered_list {
+  list-style: circle;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  border: 10px solid crimson;
+  border: 10px ridge crimson;
+  border: 10px inset crimson;
+  border: 10px outset crimson;
+  border: 10px dotted crimson;
+  border: 10px dashed crimson;
+
+  border-top: 10px ridge green;
+  border-left: 10px outset peru;
+  border-right: 10px solid orangered;
+  border-bottom: 10px ridge purple;
+
+  border-radius: 0px;
+
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.new-container {
+  border: 5px solid red;
+  height: 400px;
+  width: 400px;
+  text-align: justify;
+  margin: 50px;
+  margin: 50px 0px; /*Vertically margin(top, bottom)   horizontal margins(left, right)*/
+  margin: 50px 20px 0px 100px; /*Top Right Bottom Left*/
+  margin-left: 50px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+
+  padding: 50px;
+  padding: 50px 0px; /*Vertically paddings(top, bottom)   horizontal paddings(left, right)*/
+  padding: 50px 20px 0px 100px; /*Top Right Bottom Left*/
+  padding: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.myImage {
+  height: 500px;
+  width: 500px;
+  background: url("https://images.pexels.com/photos/64152/tiger-cub-tiger-cub-big-cat-64152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    center center/cover;
+  transition: all 0.3s;
+}
+
+.myImage:hover {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: url("https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    center center/cover;
+}
+
+.tiger_box {
+  height: 400px;
+  width: 600px;
+  background: url("./tiger.jpg") center center/cover;
+}
