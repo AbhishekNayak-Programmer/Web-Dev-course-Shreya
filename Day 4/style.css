@@ -1,0 +1,181 @@
+.para {
+  line-height: 2;
+  text-align: justify;
+}
+
+.flower-img {
+  height: 100px;
+  float: right;
+  float: left;
+}
+
+.btn {
+  margin-left: 20px;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 20px;
+  /* background-color: rgb(215, 78, 105); */
+  border: 2px solid crimson;
+  color: crimson;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.car_img {
+  background: url("https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    center center/cover;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.link_styles {
+  text-decoration: none;
+}
+
+.btn1,
+.btn2 {
+  color: purple;
+  background-color: #fff;
+  border: 1px solid purple;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn1:hover,
+.btn2:hover {
+  background-color: purple;
+  color: #fff;
+}
+
+.btn2 {
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.para3 {
+  height: 400px;
+  width: 400px;
+  border: 2px solid purple;
+  overflow-y: scroll;
+  text-align: justify;
+  padding: 20px;
+  /* overflow: hidden; */
+}
+
+.heading {
+  display: inline-block;
+  visibility: hidden;
+  display: none;
+}
+
+.container p:nth-child(3) {
+  color: crimson;
+}
+
+.container p:nth-child(5) {
+  color: purple;
+}
+
+.container p:first-child {
+  color: orangered;
+}
+
+.container p:last-child {
+  color: navy;
+}
+
+.container2 p:nth-child(even) {
+  color: green;
+}
+
+.container2 p:nth-child(odd) {
+  color: crimson;
+}
+
+.para5::first-line {
+  color: blue;
+}
+
+.para5::first-letter {
+  color: red;
+}
+
+.input_styles {
+  padding: 5px 8px;
+  font-size: 16px;
+  color: green;
+  outline-color: green;
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+  caret-color: rgb(38, 18, 22);
+  background-color: #000;
+}
+
+.input_styles::placeholder {
+  color: green;
+}
+
+.container4 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(
+    179.7deg,
+    rgba(249, 21, 215, 1) 1.1%,
+    rgba(22, 0, 98, 1) 99%
+  );
+  transition: all 0.7s;
+}
+
+.container4:hover {
+  /* background: radial-gradient(
+      ellipse farthest-side at 76% 77%,
+      rgba(245, 228, 212, 0.25) 4%,
+      rgba(255, 255, 255, 0) calc(4% + 1px)
+    ),
+    radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%),
+    linear-gradient(135deg, #ff0000 0%, #000036 100%),
+    radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%),
+    linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);
+  background-blend-mode: normal, normal, screen, overlay, normal; */
+
+  background: radial-gradient(
+      65% 100% at 50% 0%,
+      #00ff94 0%,
+      rgba(0, 255, 148, 0.25) 100%
+    ),
+    linear-gradient(230deg, #000000 25%, #170059 100%),
+    linear-gradient(215deg, #ffebb9 10%, #19004e 80%),
+    radial-gradient(100% 245% at 100% 100%, #ffffff 0%, #000353 100%),
+    linear-gradient(125deg, #1400ff 0%, #3a0000 100%),
+    linear-gradient(
+      225deg,
+      #00f0ff 30%,
+      #000b6f 45%,
+      #00ebfc 45%,
+      #001676 65%,
+      #00e1f6 65%,
+      #001676 85%,
+      #00ecfd 85%,
+      #001676 100%
+    ),
+    linear-gradient(
+      135deg,
+      #00f0ff 0%,
+      #000b6f 15%,
+      #00ebfc 15%,
+      #001676 35%,
+      #00e1f6 35%,
+      #001676 55%,
+      #00ecfd 55%,
+      #001676 100%
+    );
+  background-blend-mode: soft-light, screen, overlay, overlay, difference,
+    overlay, normal;
+}

@@ -1,0 +1,20 @@
+1. How to add Icons using font Awesome Icons
+2. Line Height
+3. Float in CSS
+4. Design a Button and a Anchor Tag
+5. Background Attachment using CSS
+6. Same Styles using in Multiple Elements
+7. Using comma for Multiple Different classes with same Styles
+8. Overflow in CSS
+9. Visibility 
+10. Display Properties
+11. Nth child Selector
+12. Psuedo Selectors (First Line, first letter, placeholder)
+13. Cursor Property
+14. Using Gradients in HTML
+15. Styling a Input
+16. Caret Color
+
+
+Homework
+1. Make Netflix First display page clone
