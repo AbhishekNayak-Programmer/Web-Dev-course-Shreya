@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 100px;
+  box-shadow: inset 0px 16px 32px rgba(0, 0, 0, 0.1); /*Horizontal (right(+), left(-)), Vertical(top(-), bottom(+)), blur, color*/
+  box-shadow: inset -1px 0px 32px rgba(0, 0, 0, 0.1);
+
+  box-shadow: -2px 3px 31px -11px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: -2px 3px 31px -11px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: -2px 3px 31px -11px rgba(0, 0, 0, 0.58);
+}
+
+.name {
+  text-shadow: 0px 28px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  background: crimson;
+  margin: 100px;
+  transition: all 0.7s;
+}
+
+.container:hover {
+  /* transform: scale(1.5) rotate(360deg) translateX(200px) translateY(20px) skew(45deg); */
+  transform: scale(1.5) rotate(360deg) translate(200px);
+  background-color: purple;
+  border-radius: 50%;
+}
+
+@keyframes animation1 {
+  0% {
+    background-color: crimson;
+  }
+  25% {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  35% {
+    background-color: purple;
+    height: 300px;
+    transform: scale(1.5) rotate(360deg) translate(200px);
+  }
+  62% {
+    transform: scale(0.5) rotate(60deg) translateX(600px);
+  }
+  80% {
+    background-color: blue;
+    transform: scale(0.5) rotate(60deg) translate(-200px);
+    border-radius: 50%;
+  }
+}
+
+.container1 {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  /* animation: animation1 3s infinite linear;
+
+  animation-name: animation1;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; */
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /*Spaces are divided equally*/
+  justify-content: space-between; /*Spaces at start and end is removed and spaces added in middle*/
+  justify-content: space-around; /*Spaces at start and end is less and middle spaces are more*/
+  justify-content: center; /*Only We will have spaces at left and right side*/
+  gap: 28px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+}
+
+.child:nth-child(1) {
+  background-color: crimson;
+}
+
+.child:nth-child(2) {
+  background-color: purple;
+}
+
+.child:nth-child(3) {
+  background-color: yellowgreen;
+  height: 300px;
+}
+
+.child:nth-child(4) {
+  background-color: green;
+}
+
+.child:nth-child(5) {
+  background-color: crimson;
+}
+
+.child:nth-child(6) {
+  background-color: purple;
+  align-self: end;
+}
+
+.child:nth-child(7) {
+  background-color: yellowgreen;
+}
+
+.child:nth-child(8) {
+  background-color: green;
+}
+
+.child:nth-child(9) {
+  background-color: crimson;
+}
+
+.child:nth-child(10) {
+  background-color: purple;
+}
+
+.child:nth-child(11) {
+  background-color: yellowgreen;
+}
+
+.child:nth-child(12) {
+  background-color: green;
+}
+
+.container4 {
+  display: flex;
+}
+
+.box1 {
+  width: 200px;
+  height: 300px;
+}
+
+.box1:nth-child(1) {
+  flex-grow: 1;
+  background-color: red;
+}
+
+.box1:nth-child(2) {
+  flex-grow: 3;
+  background-color: rgb(0, 208, 255);
+}
