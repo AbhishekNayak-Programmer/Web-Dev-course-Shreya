@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nature_img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.img_container {
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("https://images.pexels.com/photos/46160/field-clouds-sky-earth-46160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+      center center/cover;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: calc(100% / 3 - 20px);
+}
+
+.container {
+  display: grid;
+  /* grid-template-rows: 300px 300px 300px 300px; */
+  grid-template-rows: repeat(4, 300px);
+
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(5, 1fr);
+
+  /* grid-template-columns: 1fr 2fr 3fr 4fr; */
+  grid-template-columns: 200px 300px auto;
+
+  column-gap: 10px;
+  row-gap: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  background: rgb(99, 99, 235);
+  font-size: 100px;
+}
+
+.container2 {
+  border: 10px solid red;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
