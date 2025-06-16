@@ -1,0 +1,24 @@
+1. Media Queries
+2. Filter Properties
+blur()	Applies a blur effect to an element (in px)
+brightness()	Adjusts the brightness of an element (in %)
+contrast()	Adjusts the contrast of an element (in %)
+grayscale()	Converts an image to grayscale (in %)
+hue-rotate()	Applies a color rotation to an element (in deg)
+invert()	Inverts the color of an image (in %)
+opacity()	Applies an opacity effect to an element (in %)
+saturate()	Adjusts the saturation (color intensity) of an element (in %)
+sepia()	Converts an image to sepia or warmer (in %)
+
+3. Git & Github
+
+
+Width of the Responsive Design
+Size of Usual Size Mobile Phone - 320px to 440px (Most Used Devices)
+Size of Big Mobile phone - 440px to 576px
+Size of Small Tablet - 576px to 768px
+Size of Tablet (Most Used) - 768px to 992px
+Size of Small Laptops - 992px to 1280px
+Size of Medium Size Laptops - 1280px to 1400px 
+Size of Large Sized Laptops and (Small to Medium Monitors) - 1400px to 1600px
+Big size Monitors and Projectors - More than 1600px 

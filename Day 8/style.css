@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.img1 {
+  height: 250px;
+  filter: blur(1px);
+}
+
+.img2 {
+  height: 250px;
+  filter: brightness(200%);
+}
+
+.img3 {
+  height: 250px;
+  filter: contrast(200%);
+}
+
+.img4 {
+  height: 250px;
+  filter: grayscale(100%);
+}
+
+.img5 {
+  height: 250px;
+  filter: hue-rotate(60deg);
+}
+
+.img6 {
+  height: 250px;
+  filter: invert(5%);
+}
+
+.img7 {
+  height: 250px;
+  filter: opacity(50%);
+}
+
+.img8 {
+  height: 250px;
+  filter: saturate(400%);
+}
+
+.img9 {
+  height: 250px;
+  filter: sepia(60%);
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thumbnail View</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            max-width: 1000px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 160px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        @media (max-width: 992px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/32481915/pexels-photo-32481915/free-photo-of-charming-cottage-surrounded-by-daisy-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 1">
+            <img src="https://images.pexels.com/photos/4016579/pexels-photo-4016579.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Thumbnail 2">
+            <img src="https://images.pexels.com/photos/7002976/pexels-photo-7002976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 3">
+            <img src="https://images.pexels.com/photos/6550781/pexels-photo-6550781.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="Thumbnail 4">
+            <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 5">
+            <img src="https://images.pexels.com/photos/15013889/pexels-photo-15013889/free-photo-of-a-grilled-meat-on-white-ceramic-plate.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 6">
+            <img src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 7">
+            <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 8">
+            <img src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 9">
+            <img src="https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 10">
+            <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 11">
+            <img src="https://images.pexels.com/photos/1860204/pexels-photo-1860204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 12">
+            <img src="https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 13">
+            <img src="https://images.pexels.com/photos/3789885/pexels-photo-3789885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 14">
+            <img src="https://images.pexels.com/photos/397913/pexels-photo-397913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 15">
+            <img src="https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Thumbnail 16">
+        </div>
+    </div>
+</body>
+
+</html>
