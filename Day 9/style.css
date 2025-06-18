@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.name {
+  border: 2px solid green;
+}
+
+.box {
+  border: 5px solid blue;
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  background: url("https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg")
+    center center/cover;
+  background-attachment: fixed;
+  color: white;
+  line-height: 1.5;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.parent_box {
+  height: 400px;
+  border: 10px solid crimson;
+  position: relative;
+}
+
+.child_box {
+  height: 200px;
+  width: 200px;
+  border: 10px solid goldenrod;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

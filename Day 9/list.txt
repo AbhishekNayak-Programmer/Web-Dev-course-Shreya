@@ -1,0 +1,19 @@
+1. What is JavaScript
+2. Connecting the JavaScript Ways
+3. Console & log
+4. Variables - Let, Const, Var 
+5. Arithmetic Operators in JavaScript (+, -, *, /)
+6. Datatypes - str, num, bool, undefined, null, object 
+7. Math Methods
+8. Document in JavaScript
+9. Selecting Id and Classes using JavaScript
+10. Dynamic Typed
+
+11. Assignment Operators (+=, -=, *=, /=)
+12. Comparison Operators (>=, >, <, <=)
+13. If Else Conditions
+
+Doubts
+1. Box Sizing Border Box
+2. Background Attachment Fixed
+3. Position Absolute
