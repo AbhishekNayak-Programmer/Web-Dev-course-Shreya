@@ -1,16 +1,21 @@
-Tables CSS,
-Position,
-Z-Index,
-Opacity ,
-Important,
-Calc in CSS,
-Root in CSS,
-Border Image,
-Transparent Background,
-Min Height, Min Width, Max Height, Max Width,
-Text Overflow,
-Clip Path --Done
-Waves,
-Color Pallete Websites ,
-Image Optimisation Sites ,
-Word Break - break-word & Hyphen auto,
+1. Tables CSS -- Done
+2. Position -- Done
+3. Z-Index -- Done
+4. Opacity  -- Done
+5. Important -- Done
+6. Calc in CSS -- Done
+7. Root in CSS -- D
+8. Border Image -- Done
+9. Transparent Background -- Done
+10. Min Height, Min Width, Max Height, Max Width -- Done
+11. 
+13. Text Overflow
+14. 
+15. Clip Path
+16. Waves
+17. Color Pallete Websites  -- Done
+18. Image Optimisation Sites  -- Done
+19. Word Break - break-word & Hyphen auto -- Done
+
+
+
