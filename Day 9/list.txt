@@ -9,10 +9,6 @@
 9. Selecting Id and Classes using JavaScript
 10. Dynamic Typed
 
-11. Assignment Operators (+=, -=, *=, /=)
-12. Comparison Operators (>=, >, <, <=)
-13. If Else Conditions
-
 Doubts
 1. Box Sizing Border Box
 2. Background Attachment Fixed
