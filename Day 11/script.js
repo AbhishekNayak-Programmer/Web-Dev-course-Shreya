@@ -131,3 +131,122 @@ arr.forEach((el, ind) => {
 // Homework
 // 1. Create a empty array and fill the numbers from 50 to 35 and then reverse that array and remove first and last element from array
 // 2. After above operations find all the odd numbers inside the array (print it in console)
+
+let x = 456;
+console.log(typeof x);
+
+x = "name";
+console.log(typeof x);
+
+x = [1234];
+console.log(typeof x);
+
+arr = [1, 1, 1, 1, 1, 1, 3];
+console.log(arr);
+
+const ans = new Set(arr);
+console.log(ans);
+
+const set = new Set();
+console.log(set);
+set.add(1);
+set.add(1);
+set.add(1);
+set.add(2);
+set.add(2);
+set.add("Abhishek Nayak");
+console.log(set);
+console.log(set.size);
+set.delete(1);
+console.log(set);
+
+// Checking the variable is array or not
+arr = [1234, 678, "Ahdfjgklh"];
+console.log(Array.isArray(arr));
+
+// AND GATE
+// T + T = T
+// T + F = F
+// F + T = F
+// F + F = F
+
+// And Operation with IF Else
+let wifi = true,
+  wake = true;
+if (wifi && wake) {
+  console.log("I will do the class");
+} else {
+  console.log("I am unable to do the class");
+}
+
+// OR Gate
+// T + F = T
+// F + T = T
+// T + T = T
+// F + F = F
+
+// OR Operation with IF Else
+wifi = false;
+wake = true;
+
+if (wifi || wake) {
+  console.log("I will do the class");
+} else {
+  console.log("I am unable to do the class");
+}
+
+// NOT GATE
+// T - F
+// F - T
+
+let isValid = false;
+if (!isValid) {
+  console.log("You are valid to drive car");
+} else console.log("You are not valid");
+
+// Object - One Way
+let obj = {};
+console.log(obj);
+obj = { ...obj, name: "Abhishek", age: "26", address: "hyderabad" };
+console.log(obj);
+obj = { ...obj, favoriteColor: "lightblue" };
+console.log(obj);
+obj = {
+  ...obj,
+  address: "delhi",
+  favoriteNumbers: [2, 34, 7],
+  otherDetails: { work: "Software Developer", exp: "5 years" },
+};
+console.log(obj);
+console.log(obj.otherDetails);
+
+// Second Way
+let person = {};
+person.name = "Abhishek";
+person.age = 26;
+person.address = "Odisha";
+person.favColor = "lightblue";
+person.favoriteNumbers = [1, 7, 9];
+person.otherDetails = {
+  work: "Software Developer",
+  exp: "5 years",
+};
+console.log(person);
+console.log(person.favColor);
+
+person.favColor = "green";
+console.log(person);
+
+// Map Datastructure
+let map = new Map();
+map.set("name", "Abhishek");
+map.set("age", "26");
+map.set("favNumbers", [1345, 67898]);
+
+console.log(map);
+console.log(map.size);
+
+map.delete("favNumbers");
+console.log(map);
+
+console.log(map.get("name"));
