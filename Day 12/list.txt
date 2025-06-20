@@ -1,0 +1,7 @@
+1. Functions Declarations & Function Expression - (Diff b/w arguments & parameters) Return in Functions
+2. Arrow Functions
+3. Spread Operator
+4. Rest Operator
+5. Dates in JavaScript
+6. Numerical String to Number 
+7. String Methods
