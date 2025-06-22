@@ -1,0 +1,5 @@
+1. Event Listeners - click, mouseover, mouseout, keydown, keyup, scroll, dblclick
+2. Alerts 
+3. Classlist - add, remove, toggle
+4. Working with style object of selected class/IDs
+5. Template Literals

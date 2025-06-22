@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.invisible {
+  display: none;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 5px solid crimson;
+}
+
+.unique {
+  background-color: green;
+}
+
+.myBox {
+  height: 200px;
+  width: 200px;
+  border: 5px solid blueviolet;
+}
+
+.myBoxStyle {
+  background-color: blueviolet;
+}
+
+.invisiblePara {
+  display: none;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+}
+
+.mybox2 {
+  height: 200px;
+  width: 200px;
+  border: 5px solid orchid;
+}
