@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 8px 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:visited,
+nav a:active {
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: crimson;
+}

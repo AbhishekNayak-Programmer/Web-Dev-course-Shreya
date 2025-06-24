@@ -1,0 +1,2 @@
+1. Event Listeners - scroll event, dblclick
+2. How to redirect b/w different html files and link with diffrent css
