@@ -1,2 +1,12 @@
-1. Event Listeners - scroll event, dblclick
-2. How to redirect b/w different html files and link with diffrent css
+1. Class and Objects Creations
+2. Constructor
+3. Inheritance
+4. Encapsulation
+5. Super Keyword
+
+6. Callback Functions
+7. Map, Filter, Reduce Method
+8. JSON Object
+
+// Homework
+1. Create a Array name as products add Objects having products details inside array
