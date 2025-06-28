@@ -1,0 +1,4 @@
+1. Fetch Request 
+2. Async Await in JS
+3. Try and Catch 
+4. Creating Elements in JavaScript and inserting to HTML
